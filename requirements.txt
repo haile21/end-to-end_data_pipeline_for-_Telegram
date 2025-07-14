@@ -1,1 +1,11 @@
+telethon
+python-dotenv
+requests
+aiohttp
+loguru
+fastapi
+uvicorn
+pydantic
+psycopg2-binary
+sqlalchemy
 
