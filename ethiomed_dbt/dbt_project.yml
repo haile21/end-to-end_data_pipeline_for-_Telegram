@@ -1,0 +1,4 @@
+models:
+  ethiomed_dbt:
+    staging:
+      +schema: staging
