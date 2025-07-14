@@ -8,4 +8,5 @@ uvicorn
 pydantic
 psycopg2-binary
 sqlalchemy
+dbt-postgres
 
