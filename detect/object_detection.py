@@ -67,3 +67,9 @@ def run():
 
 if __name__ == "__main__":
     run()
+
+##RUN
+#Step 1: Run the image detection script
+# -python detect/object_detection.py
+#step 2: Build the new dbt model
+#- dbt run --select fct_image_detections
