@@ -11,4 +11,6 @@ sqlalchemy
 dbt-postgres
 ultralytics
 fastapi
+dagster
+dagster-webserver
 
