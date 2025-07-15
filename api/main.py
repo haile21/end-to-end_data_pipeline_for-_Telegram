@@ -28,3 +28,7 @@ def search_messages(query: str, db: Session = Depends(get_db)):
     if not query:
         raise HTTPException(status_code=400, detail="Query string cannot be empty.")
     return crud.search_messages(db, query)
+
+## Run the API
+#- uvicorn main:app --reload
+#visit swagger for the api endpoints com
